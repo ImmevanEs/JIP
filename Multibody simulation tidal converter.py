@@ -125,7 +125,7 @@ D1o, D2o, D3o, D4o, D5o = sm.symbols('D1o, D2o, D3o, D4o, D5o', cls=me.Point)
 #defining the configuration 
 A1o.set_pos(No, r1*sm.cos(phi)*N.x + r1*sm.sin(phi)*N.y)
 B1o.set_pos(A1o, 0)
-C1o.set_pos(A1o, r2*sm.cos(phi)*N.x + r2*sm.sin(phi)*N.y)
+C1o.set_pos(No, r2*sm.cos(phi)*N.x + r2*sm.sin(phi)*N.y)
 D1o.set_pos(C1o, 0)
 A2o.set_pos(No, r1*sm.cos(phi+(2*sm.pi/5))*N.x + r1*sm.sin(phi+(2*sm.pi/5))*N.y)
 B2o.set_pos(A2o, 0)
