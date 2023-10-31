@@ -69,7 +69,7 @@ D1o = sm.symbols('D1o', cls=me.Point)
 #defining the configuration 
 A1o.set_pos(No, r1*sm.cos(phi)*N.x + r1*sm.sin(phi)*N.y)
 B1o.set_pos(A1o, 0)
-C1o.set_pos(A1o, r2*sm.cos(phi)*N.x + r2*sm.sin(phi)*N.y)
+C1o.set_pos(No, r2*sm.cos(phi)*N.x + r2*sm.sin(phi)*N.y)
 D1o.set_pos(C1o, 0)
 
 #defining and setting the velocities 
