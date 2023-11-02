@@ -55,8 +55,8 @@ V = 2       #inflow velocity [m/s]
 TSR = 0.85      #tip speed ratio
 
 #blade
-C = 0.5        #chorld length [m] 
-b = 1.6        #draft [m]
+C = 2       #chorld length [m] 
+b = 5        #draft [m]
 #Ap = 0.8      #planform [m^2]
 Z = 5          #number of blades
 
